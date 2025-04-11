@@ -1,0 +1,26 @@
+model:
+  d_model: 512
+  num_layers: 6
+  num_heads: 8
+  d_ff: 2048
+  dropout: 0.1
+
+data:
+  max_seq_len_path: ./urdugpt/max_seq_len.txt
+  tokenizer_en_path: ./tokenizer_en/tokenizer_en.json
+  tokenizer_ur_path: ./tokenizer_ur/tokenizer_ur.json
+  dataset_name: Helsinki-NLP/opus-100
+  dataset_config: en-ur
+  train_limit: 1500
+  val_limit: 50
+
+training:
+  batch_size: 5
+  epochs: 5
+  learning_rate: 0.0001
+  label_smoothing: 0.1
+  checkpoint_dir: ./urdugpt
+  checkpoint_name: model_epoch_5.pt
+
+inference:
+  beam_width: 5
