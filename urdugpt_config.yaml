@@ -20,7 +20,7 @@ training:
   learning_rate: 0.0001
   label_smoothing: 0.1
   checkpoint_dir: ./urdugpt
-  checkpoint_name: model_epoch_5.pt
+  checkpoint_name: model_9.pt
 
 inference:
   beam_width: 5
