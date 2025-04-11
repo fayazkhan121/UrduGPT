@@ -1,6 +1,7 @@
 # UrduGPT Web App (Streamlit)
 
 This is the official UI for **UrduGPT** — a custom-built English → Urdu translator powered by a Transformer-based LLM trained from scratch using PyTorch.
+![Screenshot 2025-04-11 101730](https://github.com/user-attachments/assets/79b236a2-d9c8-424c-84dc-98c800adda86)
 
 ---
 
